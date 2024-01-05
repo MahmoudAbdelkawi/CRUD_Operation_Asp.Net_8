@@ -1,0 +1,27 @@
+﻿global using FluentValidation;
+global using MediatR;
+global using System.Reflection;
+global using CRUD_Operation.Behaviour;
+global using CRUD_Operation.Data;
+global using CRUD_Operation.Middlewares;
+global using CRUD_Operation.Repositories;
+global using Microsoft.AspNetCore.Mvc.Infrastructure;
+global using Microsoft.AspNetCore.Mvc.Routing;
+global using Microsoft.AspNetCore.Mvc;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.Extensions.Options;
+global using System.Text.Json.Serialization;
+global using CRUD_Operation;
+global using CRUD_Operation.Repositories.Implementations;
+global using CRUD_Operation.Repositories.Interfaces;
+global using CRUD_Operation.Models;
+global using CRUD_Operation.Models.Base;
+global using CRUD_Operation.Global;
+global using System.Net;
+global using System.Text.Json;
+global using AutoMapper;
+global using CRUD_Operation.Features.Category.Command.Models;
+global using CRUD_Operation.Features.Category.Query.Models;
+global using CRUD_Operation.AppMetaData.BaseRouter;
+global using Microsoft.EntityFrameworkCore.Metadata.Builders;
+
